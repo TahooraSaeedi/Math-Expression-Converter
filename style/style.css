@@ -1,0 +1,180 @@
+.menu-pane {
+    -fx-background-image: url("file:image/back-1.png");
+}
+
+.menu-button {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+    -fx-text-fill: #E63946;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 80px;
+    -fx-font-size: 26px;
+}
+
+.menu-buttonIn {
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.3), 20, 0.5, 0.0, 0.0);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.menu-label {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-text-fill: rgba(255, 255, 255, 0.2);
+    -fx-alignment: center;
+    -fx-pref-width: 600px;
+    -fx-font-size: 32px;
+}
+
+.menu-label-flash {
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.5), 50, 0.7, 0.0, 0.0);
+    -fx-text-fill: #ffffff;
+}
+
+.startConverting-pane {
+    -fx-background-image: url("file:image/back-2.png");
+}
+
+.startConverting-label-1 {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-text-fill: #000000;
+    -fx-alignment: center;
+    -fx-pref-width: 200px;
+    -fx-font-size: 32px;
+}
+
+.startConverting-label-2 {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-text-alignment: justify;
+    -fx-text-fill: #ffffff;
+    -fx-pref-width: 180px;
+    -fx-alignment: center;
+    -fx-font-size: 14px;
+}
+
+.startConverting-input {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-prompt-text-fill: rgba(0, 0, 0, 0.3);
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+    -fx-text-fill: #000000;
+    -fx-pref-width: 350px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 20px;
+}
+
+.startConverting-comboBox {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+    -fx-pref-width: 350px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 20px;
+}
+
+.startConverting-button {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+    -fx-text-fill: #E63946;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 80px;
+    -fx-font-size: 26px;
+}
+
+.startConverting-buttonIn {
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.3), 20, 0.5, 0.0, 0.0);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.history-pane {
+    -fx-background-color: #1D3557;
+}
+
+.history-label-1 {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+    -fx-pref-width: 258.75px;
+    -fx-text-fill: #1D3557;
+    -fx-alignment: center;
+    -fx-pref-height: 50px;
+    -fx-font-size: 32px;
+}
+
+.history-label-2 {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-background-color: #E63946;
+    -fx-background-radius: 20px;
+    -fx-pref-width: 258.75px;
+    -fx-text-fill: #ffffff;
+    -fx-pref-height: 260px;
+    -fx-alignment: center;
+    -fx-font-size: 18px;
+}
+
+.convert-pane {
+    -fx-background-color: #E63946;
+}
+
+.convert-label {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+    -fx-text-fill: #1D3557;
+    -fx-alignment: center;
+    -fx-pref-width: 165px;
+    -fx-pref-height: 50px;
+    -fx-font-size: 32px;
+}
+
+.convert-input {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-alignment: center;
+    -fx-pref-width: 500px;
+    -fx-pref-height: 50px;
+    -fx-min-height: 50px;
+    -fx-font-size: 20px;
+}
+
+.convert-output {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-pref-height: 210px;
+    -fx-alignment: center;
+    -fx-pref-width: 500px;
+    -fx-font-size: 20px;
+}
+
+.error-pane {
+    -fx-background-color: #E63946;
+}
+
+.error-rectangle {
+    -fx-fill: #1D3557;
+}
+
+.error-label {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-padding: 0px 5px 0px 5px;
+    -fx-text-alignment: center;
+    -fx-text-fill: #ffffff;
+    -fx-pref-width: 300px;
+    -fx-font-size: 30px;
+}
+
+.error-button {
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20px;
+    -fx-text-fill: #E63946;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 80px;
+    -fx-font-size: 26px;
+}
+
+.error-buttonIn {
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.3), 20, 0.5, 0.0, 0.0);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
